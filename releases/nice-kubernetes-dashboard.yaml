@@ -28,5 +28,5 @@ spec:
       - '--enable-insecure-login'
       - '--namespace=default'
       - '--token-ttl=864000'
-      - '-insecure-bind-address=0.0.0.0'
-      - '-insecure-port=9090'
+      - '--insecure-bind-address=0.0.0.0'
+      - '--insecure-port=9090'
