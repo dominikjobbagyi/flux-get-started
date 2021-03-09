@@ -13,10 +13,12 @@ spec:
     localprovisioner:
       basePath: /var/openebs/local
     snapshotOperator:
-      enabled: false
+      enabled: true
     ndm:
-      enabled: false
-    npmOperator:
-      enabled: false
+      enabled: true
+    ndmOperator:
+      enabled: true
     analytics:
-      enabled: false
+      enabled: true
+    crd:
+      enableInstall: true
