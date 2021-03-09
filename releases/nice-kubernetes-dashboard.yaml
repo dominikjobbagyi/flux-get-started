@@ -9,10 +9,6 @@ spec:
     name: kubernetes-dashboard
     version: 4.0.0
   releaseName: kubernetes-dashboard
-  conatiners:
-  - name: kubernetes-dashboard
-    args:
-      - '- --enable-skip-login'
   values:
     protocolHttp: true
     metricsScraper:
@@ -29,6 +25,8 @@ spec:
     service:
       externalPort: 9090
     extraArgs:
+      - '--enable-skip-login'
+      - '--disable-settings-authorizer'
       - '--enable-insecure-login'
       - '--namespace=default'
       - '--token-ttl=864000'
