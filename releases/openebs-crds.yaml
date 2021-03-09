@@ -2920,4 +2920,4 @@ status:
     kind: ""
     plural: ""
   conditions: []
-  storedVersions: []s
+  storedVersions: []
