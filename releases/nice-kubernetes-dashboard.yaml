@@ -9,6 +9,10 @@ spec:
     name: kubernetes-dashboard
     version: 4.0.0
   releaseName: kubernetes-dashboard
+  conatiners:
+  - name: kubernetes-dashboard
+    args:
+      - '- --enable-skip-login'
   values:
     protocolHttp: true
     metricsScraper:
