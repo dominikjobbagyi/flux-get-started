@@ -11,7 +11,7 @@ spec:
   releaseName: openebs
   values:
     localprovisioner:
-      basePath: ~/openebs/local
+      basePath: /var/openebs/local
     snapshotOperator:
       enabled: true
     ndm:
